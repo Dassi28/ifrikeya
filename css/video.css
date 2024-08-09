@@ -1,0 +1,53 @@
+.contain {
+    display: flex;
+}
+
+.video-player {
+    flex: 70%;
+    position: relative;
+}
+
+.video-player video {
+    width: 100%;
+    height: auto;
+}
+
+#fullscreen-btn {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    padding: 5px 10px;
+}
+
+.playlist {
+    flex: 30%;
+    padding-left: 20px;
+}
+
+.playlist ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.playlist li {
+    margin: 10px 0;
+}
+
+.playlist a {
+    text-decoration: none;
+    color: blue;
+    display: flex;
+    align-items: center;
+}
+
+.thumbnail {
+    width: 100px;
+    /* Largeur de l'aperçu */
+    height: auto;
+    margin-right: 10px;
+    /* Espace entre l'image et le texte */
+}
+
+.playlist a:hover {
+    text-decoration: underline;
+}
